@@ -1,10 +1,9 @@
-import Link from "next/link";
-import React from "react";
+import Items from '../components/Items'
 
 const Home = props => (
   <div>
-    <p>This is the index page</p>
+    <Items />
   </div>
-);
+)
 
-export default Home;
+export default Home
