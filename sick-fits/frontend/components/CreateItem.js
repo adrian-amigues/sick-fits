@@ -28,8 +28,8 @@ export const CREATE_ITEM_MUTATION = gql`
 
 export default class CreateItem extends Component {
   state = {
-    title: 'Toto boots',
-    description: 'Those are pretty cool',
+    title: 'My item',
+    description: 'This is pretty cool',
     image: 'dog.jpg',
     largeImage: 'doggg.jpg',
     price: 50,
