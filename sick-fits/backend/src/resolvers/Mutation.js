@@ -214,7 +214,6 @@ const Mutations = {
     })
     // 3. Check if that item is already in their cart and increment by 1 if it is
     if (existingCartItem) {
-      console.log('this item is already in their cart')
       return ctx.db.mutation.updateCartItem(
         {
           where: { id: existingCartItem.id },
