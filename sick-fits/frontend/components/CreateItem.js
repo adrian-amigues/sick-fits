@@ -30,8 +30,6 @@ export default class CreateItem extends Component {
   state = {
     title: 'My item',
     description: 'This is pretty cool',
-    image: 'dog.jpg',
-    largeImage: 'doggg.jpg',
     price: 50,
   }
 
